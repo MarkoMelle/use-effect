@@ -1,0 +1,25 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.details-name {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.details__image {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
